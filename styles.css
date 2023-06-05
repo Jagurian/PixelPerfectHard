@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22272e;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+
+nav {
+    height: 100%;
+    width: 255px;
+    background-color: #f4f7f6;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+#bruh {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: solid 1px #e8ecec;
+    
+}
+
+#bruh p {
+    color: #6f7070;
+    font-size: 14px;
+}
+
+ul {
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    padding: 25px;
+    border-bottom: solid 1px #e8ecec;
+}
+
+nav ul li:nth-child(6) {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:nth-child(6) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44aa9c;
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 3px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+nav ul li:nth-child(7) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef7c0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 35px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+nav ul li:nth-child(8),nav ul li:nth-child(7) {
+    display: flex;
+    align-items: center;
+  }
+
+nav ul li:nth-child(8) span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90d9e5;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 98px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+ul + p {
+    margin-top: 20px;
+    color: #b0b5b5;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: #a0d4ce;
+}
+
+
+
+
+
+
+
+
+
+
+
